@@ -8,7 +8,7 @@ Restaurant teams often spend time handling repetitive customer queries such as:
 
 - What items are available?
 - What are the menu details?
-- Is a particular item available?
+- Is a particular item available? 
 - Can I place an order?
 - What did I order?
 
@@ -49,3 +49,71 @@ Google Sheets   Google Sheets   Google Sheets
              AI-generated response
                     ↓
               WhatsApp Message
+
+🛠️ Tech Stack
+n8n – Workflow automation
+Google Gemini – AI model for understanding customer requests
+WhatsApp – Customer communication
+Google Sheets – Inventory, FAQ, and order data
+AI Agent – Decision-making and tool interaction
+Memory – Maintaining conversational context
+✨ Key Features
+1. Conversational Ordering
+
+Customers can interact naturally instead of following a fixed menu flow.
+
+2. Inventory Checking
+
+The AI agent can retrieve inventory information before responding to customer requests.
+
+3. FAQ Retrieval
+
+Common restaurant questions can be answered using information stored in Google Sheets.
+
+4. Order Management
+
+Customer orders can be recorded automatically in the order database.
+
+5. Conversational Memory
+
+The assistant can maintain context across the conversation, making the interaction more natural.
+
+6. Automated Responses
+
+Responses are generated and sent back through WhatsApp without requiring manual intervention.
+
+📸 Workflow Preview
+
+The workflow connects WhatsApp, Gemini, memory, inventory, FAQ, and order management into one automated system.
+
+🧪 Example Interaction
+
+Customer:
+
+Hi, what pizzas are available?
+
+AI Assistant:
+
+We currently have Margherita, Farmhouse, and Paneer Tikka pizzas available. Which one would you like?
+
+Customer:
+
+I want 2 Margherita pizzas.
+
+AI Assistant:
+
+Margherita pizza is available. I've added 2 to your order. Would you like to confirm the order?
+
+Customer:
+
+Yes, confirm.
+
+AI Assistant:
+
+Your order has been confirmed. Thank you!
+
+The order is then recorded in the Google Sheets order database.
+
+📊 Product Thinking
+
+The project was designed around the customer's ordering journey:
