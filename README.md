@@ -8,7 +8,7 @@ The idea is simple: instead of customers having to ask restaurant staff about th
 
 The customer sends a message on WhatsApp → n8n receives it → Gemini understands the request → the AI can check the restaurant's inventory or FAQs → the order is recorded in Google Sheets → the customer receives a response on WhatsApp.
 
-![Workflow](Screenshot 2026-09-17 130759.png)
+![Workflow](https://github.com/joinmeram/Whatsapp_AI_Ordering_Bot/blob/e3ecca4999f2fdab5eb5d6e342a3aad550274001/Screenshot%202026-09-17%20130759.png)
 
 ### What it can do
 
