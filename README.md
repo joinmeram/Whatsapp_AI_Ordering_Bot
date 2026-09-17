@@ -36,6 +36,8 @@ Yes, I want 2.
 
 The AI checks the available inventory, continues the conversation, and records the order after confirmation.
 
+![The OUTPUT](https://github.com/joinmeram/Whatsapp_AI_Ordering_Bot/blob/50c4f81b6ffb5c9f0c1f2dbe0913cc566be20261/Screenshot%202026-09-17%20140450.png)
+
 ### Why I built it
 
 I wanted to build something beyond a basic AI chatbot and understand how an AI model can interact with real data and complete an actual user workflow.
