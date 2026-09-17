@@ -1,0 +1,51 @@
+# 🤖 AI-Powered WhatsApp Restaurant Ordering Assistant
+
+An AI-powered conversational assistant that helps restaurant customers interact with a restaurant through WhatsApp. The workflow can answer FAQs, check item availability, take customer orders, and automatically record orders.
+
+## 🎯 Problem
+
+Restaurant teams often spend time handling repetitive customer queries such as:
+
+- What items are available?
+- What are the menu details?
+- Is a particular item available?
+- Can I place an order?
+- What did I order?
+
+This project explores how an AI assistant can automate these interactions while keeping the ordering experience conversational.
+
+## 💡 Solution
+
+I built an automated workflow using **n8n** and **Google Gemini** that connects WhatsApp with restaurant information and order data.
+
+The assistant:
+
+1. Receives a customer message on WhatsApp.
+2. Uses Gemini to understand the customer's request.
+3. Retrieves relevant information from the restaurant's FAQ and inventory.
+4. Maintains conversation context using memory.
+5. Helps the customer place an order.
+6. Records the order in Google Sheets.
+7. Sends the response back to the customer through WhatsApp.
+
+## 🔄 Workflow
+
+```text
+Customer
+   ↓
+WhatsApp Trigger
+   ↓
+AI Agent
+   ↓
+Google Gemini
+   ↓
+ ┌───────────────┬───────────────┬───────────────┐
+ ↓               ↓               ↓
+Inventory       FAQ            Orders
+ ↓               ↓               ↓
+Google Sheets   Google Sheets   Google Sheets
+ └───────────────┴───────────────┘
+                    ↓
+             AI-generated response
+                    ↓
+              WhatsApp Message
